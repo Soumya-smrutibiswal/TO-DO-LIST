@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <img src=c:\Users\HP\Downloads\pngtree-3d-render-of-a-to-do-list-picture-image_5585652.jpg />
+        <h1>📝 To-Do List</h1>
+        <div class="todo-input">
+            <input id="task-input" type="text" placeholder="Write your task here..." autofocus />
+            <button onclick="addTask()">Add</button>
+            <button onclick="clearAllTasks()" class="clear-btn">Clear All</button>
+
+        </div>
+        <ul id="task-list" class="todo-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
